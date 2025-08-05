@@ -42,6 +42,9 @@ void getf(int& obj)
 
 int regain(int a, int b, int c)
 {
-	return a - b + c;
+	int k = a - b + c;
+	k++;
+	return k;
 }
+
 
