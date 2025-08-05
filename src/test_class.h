@@ -6,4 +6,9 @@ struct test_class
 	char m_lcs[5];
 
 	float generate();
+
+	void func1();
+	void func2(int, void*);
+	void func3(float, float);
+
 };

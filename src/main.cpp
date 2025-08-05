@@ -20,6 +20,17 @@ int main(int argc, char** argv)
 
 	std::cout << "key : " << tcs[15].generate() + getPort();
 
+	int a, b, c;
+
+	getf(a);
+	getf(b);
+	getf(c);
+
 	free(tcs);
 }
 
+void getf(int& obj)
+{
+	obj = rand() % 10000;
+	obj += 120;
+}
