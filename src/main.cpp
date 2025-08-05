@@ -26,6 +26,11 @@ int main(int argc, char** argv)
 	getf(b);
 	getf(c);
 
+	for (int i = 0; i < 3; ++i)
+	{
+		regain(a, b, c);
+	}
+
 	free(tcs);
 }
 
@@ -34,3 +39,9 @@ void getf(int& obj)
 	obj = rand() % 10000;
 	obj += 120;
 }
+
+int regain(int a, int b, int c)
+{
+	return a - b + c;
+}
+
