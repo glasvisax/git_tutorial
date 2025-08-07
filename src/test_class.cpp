@@ -11,3 +11,13 @@ float test_class::generate()
 	data += f + 8;
 	return data;
 }
+
+void test_class::func1()
+{
+
+}
+
+void test_class::func2(int, void*)
+{
+
+}
